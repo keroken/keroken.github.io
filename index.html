@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -53,7 +54,13 @@
     <h2 class="heading hidden">WORKS</h2>
     <div class="works-wrapper">
       <div class="work-box box-01 rellax hidden" data-rellax-speed="0">
-        <img class="work-image" src="images/kazoku-channel_01.png" alt="家族チャンネル">
+        <a href="images/kazoku-channel_01.png" data-lightbox="kazoku" data-title="家族チャンネル"><img class="work-image" src="images/kazoku-channel_01.png" alt="家族チャンネル"></a>
+        <a href="images/kazoku-channel_02.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
+        <a href="images/kazoku-channel_03.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
+        <a href="images/kazoku-channel_05.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
+        <a href="images/kazoku-channel_06.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
+        <a href="images/kazoku-channel_07.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
+        <a href="images/kazoku-channel_08.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
@@ -66,7 +73,13 @@
         </div>
       </div>
       <div class="work-box box-02 rellax hidden" data-rellax-speed="-2">
-        <img class="work-image" src="images/Kyoto_App_logo.png" alt="kyoto app">
+        <a href="images/Kyoto_App_logo.png" data-lightbox="kyoto" data-title="京都APP"><img class="work-image" src="images/Kyoto_App_logo.png" alt="kyoto app"></a>
+        <a href="images/kyoto_home.png" data-lightbox="kyoto" data-title="京都APP"></a>
+        <a href="images/kyoto_cat_01.png" data-lightbox="kyoto" data-title="京都APP"></a>
+        <a href="images/kyoto_cat_02.png" data-lightbox="kyoto" data-title="京都APP"></a>
+        <a href="images/kyoto_detail_01.png" data-lightbox="kyoto" data-title="京都APP"></a>
+        <a href="images/kyoto_detail_02.png" data-lightbox="kyoto" data-title="京都APP"></a>
+        <a href="images/kyoto_detail_03.png" data-lightbox="kyoto" data-title="京都APP"></a>
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
@@ -79,7 +92,8 @@
         </div>
       </div>
       <div class="work-box box-03 rellax hidden" data-rellax-speed="0">
-        <img class="work-image" src="images/motel_project_02.jpg" alt="制作事例3">
+        <a href="images/motel_project_02.jpg" data-lightbox="motel" data-title="Motel Project"><img class="work-image" src="images/motel_project_02.jpg" alt="Motel Project"></a>
+        <a href="images/motel_project_01.jpg" data-lightbox="motel" data-title="Motel Project"></a>
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
@@ -166,13 +180,16 @@
     &copy; 2019 Kenichi Shinagawa all rights reserved.
   </footer>
   </div>
-  <script src="lib/placeholders.min.js"></script>
   <canvas class="background"></canvas>
   <script src="lib/particles.min.js"></script>
   <script src="lib/particles-settings.js"></script>
+  <script src="lib/jquery-3.4.1.js"></script>
+  <script src="lib/placeholders.min.js"></script>
+  <script src="BigPicture.js"></script>
   <!-- <script src="lib/rellax.min.js"></script> -->
   <script src="lib/fade-in.js"></script>
   <!-- <script>var rellax = new Rellax('.rellax');</script> -->
+  <script src="lib/lightbox.js"></script>
   <script src="lib/script.js"></script>
 </body>
 </html>
