@@ -265,6 +265,7 @@ animation: fade-in 4s;
   padding: 80px 0 150px;
   background-color: #fff;
   color: #333;
+  z-index: 100;
 }
 
 .contact-form {
