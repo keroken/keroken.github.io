@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/lightbox.css">
+  <link href="css/lity.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -34,10 +35,6 @@
     <p class="site-title-sub">Web designer & developer</p>
     <h1 class="site-title">Hi, my name is<br>KENICHI SHINAGAWA</h1>
     <p class="site-description">I design and develop awesome websites and web applications. Check out some of my works!</p>
-    <!-- <div class="buttons">
-      <a class="button" href="#about">LEARN MORE</a>
-      <a class="button button-showy" href="#contact">SEND MESSAGE</a>
-    </div> -->
   </header>
   <section class="about hidden" id="about">
     <h2 class="heading hidden">ABOUT ME</h2>
@@ -45,66 +42,165 @@
       I am a freelance web designer/developer based in Tokyo.<br>
     </p>
     <p class="about-text hidden">
-      I specialize in UI/UX and interaction design.<br>
+      I specialize in UI/UX and interaction design<br>
+      both on web and on-site installation.<br>
       I also make IoT products using Raspberry Pi, Arduino, etc.
     </p>
   </section>
   <section class="works" id="works">
     <h2 class="heading hidden">WORKS</h2>
     <div class="works-wrapper">
-      <div class="work-box box-01 rellax hidden" data-rellax-speed="0">
-        <a href="images/kazoku-channel_01.png" data-lightbox="kazoku" data-title="家族チャンネル"><img class="work-image" src="images/kazoku-channel_01.png" alt="家族チャンネル"></a>
-        <a href="images/kazoku-channel_02.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
-        <a href="images/kazoku-channel_03.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
-        <a href="images/kazoku-channel_05.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
-        <a href="images/kazoku-channel_06.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
-        <a href="images/kazoku-channel_07.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
-        <a href="images/kazoku-channel_08.png" data-lightbox="kazoku" data-title="家族チャンネル"></a>
+      <div class="work-box hidden">
+        <a href="images/Kyoto_App_logo.jpg" data-lightbox="kyoto" data-title="Kyoto App"><img class="work-image" src="images/Kyoto_App_logo.jpg" alt="kyoto app"></a>
+        <a href="images/kyoto_home.png" data-lightbox="kyoto" data-title="Kyoto App"></a>
+        <a href="images/kyoto_cat_01.png" data-lightbox="kyoto" data-title="Kyoto App"></a>
+        <a href="images/kyoto_cat_02.png" data-lightbox="kyoto" data-title="Kyoto App"></a>
+        <a href="images/kyoto_detail_01.png" data-lightbox="kyoto" data-title="Kyoto App"></a>
+        <a href="images/kyoto_detail_02.png" data-lightbox="kyoto" data-title="Kyoto App"></a>
+        <a href="images/kyoto_detail_03.png" data-lightbox="kyoto" data-title="Kyoto App"></a>
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              G's Academy卒業制作<br>
-              祖父母と孫をつなぐIoTチャットサービス<br>
-              使用ツール：Raspberry-pi, Firebase<br>
-              <!-- <a href="#" class="button button-ghost">READ MORE</a> -->
+              
+              Kyoto Tourist Fast Pass App Prototype<br>
+              tool：Adobe XD, Photoshop<br>
+              SOMPO Japan Data Science Bootcamp Graduation Project<br>
             </p>
           </div>
         </div>
       </div>
-      <div class="work-box box-02 rellax hidden" data-rellax-speed="-2">
-        <a href="images/Kyoto_App_logo.jpg" data-lightbox="kyoto" data-title="京都APP"><img class="work-image" src="images/Kyoto_App_logo.jpg" alt="kyoto app"></a>
-        <a href="images/kyoto_home.png" data-lightbox="kyoto" data-title="京都APP"></a>
-        <a href="images/kyoto_cat_01.png" data-lightbox="kyoto" data-title="京都APP"></a>
-        <a href="images/kyoto_cat_02.png" data-lightbox="kyoto" data-title="京都APP"></a>
-        <a href="images/kyoto_detail_01.png" data-lightbox="kyoto" data-title="京都APP"></a>
-        <a href="images/kyoto_detail_02.png" data-lightbox="kyoto" data-title="京都APP"></a>
-        <a href="images/kyoto_detail_03.png" data-lightbox="kyoto" data-title="京都APP"></a>
+      <div class="work-box hidden">
+        <a href="images/kazoku-channel_01.png" data-lightbox="kazoku" data-title="Family Channel"><img class="work-image" src="images/kazoku-channel_01.png" alt="Family Channel"></a>
+        <a href="images/kazoku-channel_02.png" data-lightbox="kazoku" data-title="Family Channel"></a>
+        <a href="images/kazoku-channel_03.png" data-lightbox="kazoku" data-title="Family Channel"></a>
+        <a href="images/kazoku-channel_05.png" data-lightbox="kazoku" data-title="Family Channel"></a>
+        <a href="images/kazoku-channel_07.png" data-lightbox="kazoku" data-title="Family Channel"></a>
+        <a href="images/kazoku-channel_08.png" data-lightbox="kazoku" data-title="Family Channel"></a>
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              DataScienceBootcamp卒業制作<br>
-              京都観光地混雑緩和アプリプロトタイプ<br>
-              使用ツール：Adobe XD, Photoshop<br>
-              <!-- <a href="#" class="button button-ghost">READ MORE</a> -->
+              Kazuku(Family) Channel<br>
+              IoT Chat App for Grandparents and Teenagers<br>
+              developed web chat service with infrared remote UI device for TV<br>
+              tool：JavaScript, Raspberry-pi, Firebase<br>
+              G's Academy Graduation Project<br>
             </p>
           </div>
         </div>
       </div>
-      <div class="work-box box-03 rellax hidden" data-rellax-speed="0">
+      <div class="work-box hidden">
+        <a href="https://dtojp.org/" target="_blank"><img class="work-image" src="images/DareToOvercome_01.png" alt="Dare to Overcome"></a>
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              Dare to Overcome<br>
+              landing page for an international event<br>
+              tool: WordPress<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box hidden">
+        <a href="https://megumidesign.com/" target="_blank"><img class="work-image" src="images/megumidesign_01.png" alt="Megumi Design"></a>
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              Megumi Design<br>
+              personal branding blog<br>
+              tool: WordPress<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box hidden">
+        <a href="https://www.youtube.com/watch?v=nZKir0TjT40" data-lity><img class="work-image" src="images/kuwagata_01.jpg" alt="Kuwagata-bender"></a>
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              Kuwagata Bender<br>
+              an interactive installation that explore tactility of digital space<br>
+              tool: TouchDesigner, LeapMotion<br>
+              Digital Hollywood UI/UXD Design School<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box hidden">
+        <a href="https://face-app-kero.herokuapp.com/" target="_blank"><img class="work-image" src="images/face-app_01.png" alt="Face App"></a>
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              Face App<br>
+              web app that detects face in a given URL of an image<br>
+              authentication required<br> 
+              tool: React.js, Node.js, Express.js<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box hidden">
+        <a href="https://encouraging-answer.surge.sh/" target="_blank"><img class="work-image" src="images/the_venu_01.png" alt="The Venu"></a>
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              The Venu<br>
+              a landing page for a concert<br>
+              tool: React.js<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box hidden">
+        <a href="images/Typography_centaur_06.jpg" data-lightbox="centaur" data-title="Centaur"><img class="work-image" src="images/Typography_centaur_06.jpg" alt="Typography"></a>
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              Typographic Poster - CENTAUR<br>
+              tool: Illustrator, Photoshop<br>
+              Digital Hollywood UI/UX Design School<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box hidden">
+        <a href="images/infographic_mbti_17.png" data-lightbox="personal-type" data-title="Personal-type"><img class="work-image" src="images/infographic_mbti_17.png" alt="Infographic"></a>
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              Infographic Poster - MBTI for Dev Team Building<br>
+              tool: Illustrator, Photoshop<br>
+              Digital Hollywood UI/UXD Design School<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box hidden">
+        <a href="images/resonate_club_kuju.png" data-lightbox="resonate" data-title="Resonate"><img class="work-image" src="images/resonate_club_kuju.png" alt="制作事例3"></a>
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              Resonate Club Kuju - Architectural Project<br>
+              an environment friendly resort facility in Kuju, Oita<br>
+              Atelier Mobile Architects - designed and supervised construction on site<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box hidden">
         <a href="images/motel_project_02.jpg" data-lightbox="motel" data-title="Motel Project"><img class="work-image" src="images/motel_project_02.jpg" alt="Motel Project"></a>
         <a href="images/motel_project_01.jpg" data-lightbox="motel" data-title="Motel Project"></a>
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
               Motel Project<br>
-              旅人がanonymous(匿名)になるMotel。<br>
-              人生をリセットする装置としてのMotel。<br>
-              <!-- <a href="#" class="button button-ghost">READ MORE</a> -->
+              travelers become anonymous at motel<br>
+              motel as a device to reset your identity<br>
+              Poetic Architecture Studio - Rhode Island School of Design
             </p>
           </div>
         </div>
       </div>
-      <div class="work-box box-04 rellax hidden" data-rellax-speed="-2">
+      <div class="work-box hidden">
         <a href="images/MusicSchoolProject_07.jpg" data-lightbox="music-school" data-title="Music School Project"><img class="work-image" src="images/MusicSchoolProject_07.jpg" alt="Music School Project"></a>
         <a href="images/MusicSchoolProject_08.jpg" data-lightbox="music-school" data-title="Music School Project"></a>
         <a href="images/MusicSchoolProject_09.jpg" data-lightbox="music-school" data-title="Music School Project"></a>
@@ -120,86 +216,34 @@
           <div class="work-description-inner">
             <p class="work-text">
               Music School Project<br>
-              古い港町の少し寂れたDownTownに新設するMusic School。<br>
+              a music school as an urban renewal instrument for a port city<br>
+              B.Arch. Degree Project - Rhode Island School of Design
               <br>
-              <!-- <a href="#" class="button button-ghost">READ MORE</a> -->
             </p>
           </div>
         </div>
       </div>
-      <div class="work-box box-05 rellax hidden" data-rellax-speed="0">
-        <a href="images/Typography_centaur_06.jpg" data-lightbox="centaur" data-title="Centaur"><img class="work-image" src="images/Typography_centaur_06.jpg" alt="Typography"></a>
-        <div class="work-description">
-          <div class="work-description-inner">
-            <p class="work-text">
-              Typographic課題<br>
-              Digital Hollywood UI/UXD 2019 May<br>
-              <!-- <a href="#" class="button button-ghost">READ MORE</a> -->
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="work-box box-06 rellax hidden" data-rellax-speed="-2">
-        <a href="images/infographic_mbti_17.png" data-lightbox="personal-type" data-title="Personal-type"><img class="work-image" src="images/infographic_mbti_17.png" alt="Infographic"></a>
-        <div class="work-description">
-          <div class="work-description-inner">
-            <p class="work-text">
-              Infographic課題<br>
-              Digital Hollywood UI/UXD 2019 July<br>
-              <!-- <a href="#" class="button button-ghost">READ MORE</a> -->
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="work-box box-07 rellax hidden" data-rellax-speed="0">
-        <a href="images/resonate_club_kuju.png" data-lightbox="resonate" data-title="Resonate"><img class="work-image" src="images/resonate_club_kuju.png" alt="制作事例3"></a>
-        <div class="work-description">
-          <div class="work-description-inner">
-            <p class="work-text">
-              レゾネイトくらぶ久住<br>
-              大分県久住高原の宿泊型リゾート施設<br>
-              アトリエ・モビル建築設計事務所で設計・施工管理を担当<br>
-              <!-- <a href="#" class="button button-ghost">READ MORE</a> -->
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="work-box box-08 rellax hidden" data-rellax-speed="-2">
-        <a href="images/kuwagata_01.jpg" data-lightbox="kuwagata-bender" data-title="Kuwagata-Bender"><img class="work-image" src="images/kuwagata_01.jpg" alt="Kuwagata-bender"></a>
-        <div class="work-description">
-          <div class="work-description-inner">
-            <p class="work-text">
-              Kuwagata Bender<br>
-              Digital Hollywood UI/UXD 中間課題<br>
-              デジタル空間の手触りを体験するインタラクティブ作品<br>
-              <!-- <a href="#" class="button button-ghost">READ MORE</a> -->
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="work-box box-09 rellax hidden" data-rellax-speed="-2">
+      <div class="work-box hidden">
         <a href="images/metal_balance_01.jpg" data-lightbox="metal-balance" data-title="Metal-Balance"><img class="work-image" src="images/metal_balance_01.jpg" alt="Metal-Balance"></a>
         <a href="images/metal_balance_02.jpg" data-lightbox="metal-balance" data-title="Metal-Balance"></a>
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
               Metal Balance<br>
-              溶接された金属棒を組み合わせた空間彫刻<br>
-              <!-- <a href="#" class="button button-ghost">READ MORE</a> -->
+              kinetic balance sculptures made with metal rods and pieces<br>
             </p>
           </div>
         </div>
       </div>
-      <div class="work-box box-10 rellax hidden" data-rellax-speed="-2">
+      <div class="work-box hidden">
         <a href="images/tree_installation_01.jpg" data-lightbox="tree-installation" data-title="Tree-Installation"><img class="work-image" src="images/tree_installation_01.jpg" alt="Tree-Installation"></a>
         <a href="images/tree_installation_02.jpg" data-lightbox="tree-installation" data-title="Tree-Installation"></a>
         <a href="images/tree_installation_03.jpg" data-lightbox="tree-installation" data-title="Tree-Installation"></a>
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              Tree Installation<br>
-              キャンパス内の木を使った風の回廊インスタレーション<br>
-              <!-- <a href="#" class="button button-ghost">READ MORE</a> -->
+              Wind Corridor<br>
+              an installation that resonates with wind and sun<br>
             </p>
           </div>
         </div>
@@ -221,11 +265,9 @@
   <script src="lib/particles-settings.js"></script>
   <script src="lib/jquery-3.4.1.js"></script>
   <script src="lib/placeholders.min.js"></script>
-  <!-- <script src="BigPicture.js"></script> -->
-  <!-- <script src="lib/rellax.min.js"></script> -->
   <script src="lib/fade-in.js"></script>
-  <!-- <script>var rellax = new Rellax('.rellax');</script> -->
   <script src="lib/lightbox.js"></script>
+  <script src="lib/lity.js"></script>
   <script src="lib/script.js"></script>
 </body>
 </html>
